@@ -1,0 +1,21 @@
+{
+  "name": "ckeditor5-text-color",
+  "version": "1.0.0",
+  "description": "change text color ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^1.0.0-alpha.2",
+    "@ckeditor/ckeditor5-core": "^1.0.0-alpha.2",
+    "@ckeditor/ckeditor5-editor-inline": "^1.0.0-alpha.2",
+    "@ckeditor/ckeditor5-engine": "^1.0.0-alpha.2",
+    "@ckeditor/ckeditor5-essentials": "^1.0.0-alpha.2"
+  },
+  "keywords": [
+    "ckeditor",
+    "color"
+  ],
+  "author": "Tang, Hejun",
+  "license": "ISC"
+}
