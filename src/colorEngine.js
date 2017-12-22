@@ -6,7 +6,7 @@ import ContainerElement from '@ckeditor/ckeditor5-engine/src/view/containereleme
 
 const TEXTCOLOR = 'textColor';
 
-export default class ItalicEngine extends Plugin {
+export default class ColorEngine extends Plugin {
 	init() {
 		const editor = this.editor;
 		const data = editor.data;
@@ -26,6 +26,12 @@ export default class ItalicEngine extends Plugin {
 		// Build converter from view to model for data pipeline.
 		buildViewConverter().for( data.viewToModel )
 			.fromElement( 'p' )
+			.consuming( { attribute: [ 'style' ] } )
+			.fromElement( 'h1' )
+			.consuming( { attribute: [ 'style' ] } )
+			.fromElement( 'h2' )
+			.consuming( { attribute: [ 'style' ] } )
+			.fromElement( 'h3' )
 			.consuming( { attribute: [ 'style' ] } )
 			.toAttribute( viewElement => {
 				const color = viewElement.getStyle( 'color' )

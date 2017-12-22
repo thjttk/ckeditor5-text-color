@@ -1,12 +1,3 @@
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module basic-styles/italic
- */
-
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 import italicIcon from '@ckeditor/ckeditor5-core/theme/icons/picker.svg'
