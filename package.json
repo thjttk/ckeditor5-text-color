@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-text-color",
-  "version": "1.1.1",
+  "version": "1.1.3",
   "description": "change text color ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,10 @@
     "@ckeditor/ckeditor5-editor-inline": "^1.0.0-alpha.2",
     "@ckeditor/ckeditor5-engine": "^1.0.0-alpha.2",
     "@ckeditor/ckeditor5-essentials": "^1.0.0-alpha.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:github-libra/ckeditor5-text-color.git"
   },
   "keywords": [
     "ckeditor",
