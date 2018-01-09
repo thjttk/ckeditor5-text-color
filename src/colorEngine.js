@@ -33,6 +33,10 @@ export default class ColorEngine extends Plugin {
 			.consuming( { attribute: [ 'style' ] } )
 			.fromElement( 'h3' )
 			.consuming( { attribute: [ 'style' ] } )
+			.fromElement( 'h4' )
+			.consuming( { attribute: [ 'style' ] } )
+			.fromElement( 'h5' )
+			.consuming( { attribute: [ 'style' ] } )
 			.toAttribute( viewElement => {
 				const color = viewElement.getStyle( 'color' )
 				if (color) {
